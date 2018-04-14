@@ -27,16 +27,6 @@
     filter: none !important;
     background: var(--text-color) !important;
 }
-.mention {
-    background: transparent !important;
-}
 
-.mention:hover {
-     background: transparent !important;
-    color:unset !important;
-}
-.theme-dark .message-group .mentioned .message-text {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
 
 /*end */
