@@ -1,2 +1,38 @@
-/*test import*/
-*{color:Red}
+
+/* uh i missed that */
+/*custom css */
+.ace-monokai .ace_gutter {
+    background: hsla(75, 1%, 2%, 0.15);
+    color: #8F908A;
+}
+.ace-monokai {
+    background-color: hsla(0, 0%, 0%, 0.22);
+    color: #F8F8F2;
+}
+.ace-monokai .ace_marker-layer .ace_selection {
+    background: hsla(0, 0%, 64%, 0.27);
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{
+    background: var(--text-color);
+
+}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: hsla(0, 0%, 2%, 0.38);
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    box-shadow: 0 1px 0 0 #2f3129 inset;
+}
+
+.tooltip {
+    filter: none !important;
+    background: var(--text-color) !important;
+}
+.mention {
+    background: none !important;
+    color: var(--text-color);
+}
+
+.mention:hover {
+    color:hsla(226, 56%, 65%, 0.7) !important;
+}
+/*end */
