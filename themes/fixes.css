@@ -27,12 +27,12 @@
     filter: none !important;
     background: var(--text-color) !important;
 }
-.mention {
+span.mention {
     background: none !important;
     color: var(--text-color);
 }
 
-.mention:hover {
+span.mention:hover {
     color:hsla(226, 56%, 65%, 0.7) !important;
 }
 /*end */
