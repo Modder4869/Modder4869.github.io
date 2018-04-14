@@ -32,6 +32,11 @@
 }
 
 .mention:hover {
-    color:hsla(226, 56%, 65%, 0.7) !important;
+     background: transparent !important;
+    color:unset !important;
 }
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
 /*end */
