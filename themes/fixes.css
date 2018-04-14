@@ -28,8 +28,7 @@
     background: var(--text-color) !important;
 }
 .mention {
-    background: none !important;
-    color: var(--text-color);
+    background: transparent !important;
 }
 
 .mention:hover {
