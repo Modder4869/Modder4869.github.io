@@ -6,6 +6,6 @@
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
 .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track-piece {
     background: initial !important;
-    border-color: transparent;
+    border-color: initial;
 }
 /*end */
