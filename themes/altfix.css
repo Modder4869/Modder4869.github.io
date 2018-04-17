@@ -1,1 +1,11 @@
 /* nothing here */
+.has-more button {
+    background:hsla(calc(217 * var(--hue)), calc(7% * var(--saturation)), calc(21% * var(--lightness)), calc(1 * var(--alpha))) !important;
+}   
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track-piece {
+    background: initial !important;
+    border-color: initial;
+}
+/* ddddddddddddddddd */
