@@ -1,5 +1,6 @@
 
 /* uh i missed that */
+@import url(https://cdn.rawgit.com/Modder4869/Modder4869.github.io/master/themes/altfix.css);
 .has-more button {
     background:hsla(calc(217 * var(--hue)), calc(7% * var(--saturation)), calc(21% * var(--lightness)), calc(1 * var(--alpha))) !important;
 }   
