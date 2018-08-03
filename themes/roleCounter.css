@@ -1,0 +1,10 @@
+body {
+  counter-reset: roles;                  
+}   
+[class^="userPopout"] > [class^="body"] > [class*="rolesList"] > [class*="role"]{
+  counter-increment: roles;     
+
+}
+[class^="userPopout"] > [class^="body"] >[class^="bodyTitle"]:nth-of-type(2):before{
+    content: ' roles  ['counter(roles)'] , '
+}
